@@ -1,0 +1,10 @@
+1. search - DONE
+2. filter - DONE
+3. edit
+4. sort - DONE
+5. delete - DONE
+6. radio input field
+7. autocomplete
+8. add task
+9. pagination
+10. checkbox - DONE

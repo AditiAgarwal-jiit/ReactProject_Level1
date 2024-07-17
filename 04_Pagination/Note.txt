@@ -1,0 +1,4 @@
+This is the fourth version of he app.
+It has Pagination implemented.
+And all the other operations: search, filter ad delete
+have been modified to work in a paginated setup.
