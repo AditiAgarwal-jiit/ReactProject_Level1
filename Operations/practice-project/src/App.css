@@ -1,0 +1,160 @@
+.searchContainer{
+  display:flex;
+  gap: 4px;
+}
+
+.inputContainers{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.inputContainers img{
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  position: absolute;
+  top: 10px;
+}
+
+select{
+  background-color: papayawhip;
+  border-radius: 5px;
+}
+
+.resetSortImg{
+  img{
+    cursor: pointer;
+    margin-left: 100px;
+  }
+}
+
+
+th{
+  /* padding: 10px; */
+  position: relative;
+  /* min-height: max-content; */
+}
+
+.tableContainer img{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  top: 6px;
+  cursor: pointer;
+}
+
+tr{
+  height: 42px;
+}
+
+table{
+   width: 600px;
+   height: 100%;
+   margin: 10px 2px;
+   table-layout: fixed;
+   /* border-bottom: 1px solid black; */
+   border-collapse: collapse;
+  /* border-top-left-radius: 10px; */
+
+   td{
+    padding: 12px;
+   }
+}
+
+tr{
+  text-align: center;
+  /* border-top: 1px solid black; */
+  /* border-left: 1px solid black; */
+  /* border-right: 1px solid black; */
+  /* border-radius: 50px; */
+  border-collapse: collapse;
+}
+
+tbody{
+  background-color: cornsilk;
+}
+
+thead{
+  background-color: blanchedalmond;
+}
+
+/* table:last-child {
+  border-bottom-right-radius:10px;
+} */
+
+tr+tr{
+  border-top: 1px bisque solid;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius:10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius:10px;
+}
+
+table th:first-child {
+  border-top-left-radius:10px;
+}
+
+table th:last-child {
+  border-top-right-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
