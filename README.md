@@ -14,3 +14,7 @@ https://productapp-titlesort.netlify.app/
 Version3:
 (Delete single record and multiple records)
 https://productapp-deleterecords.netlify.app/
+
+Version4:
+(Pagination added with operations)
+https://productapp-pagination.netlify.app/
