@@ -1,0 +1,190 @@
+.searchContainer{
+  display:flex;
+  gap: 4px;
+}
+
+.inputContainers{
+  display: flex;
+  width: 700px;
+  /* gap: 10px; */
+  align-items: center;
+  /* justify-content:space-between; */
+  /* gap: 10px; */
+  /* flex-basis: 50% 30% 10% 10%; */
+}
+
+.tableContainer tbody tr td:first-child{
+  padding-right: 40px;
+}
+
+.inputContainers img{
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  position: absolute;
+  top: 10px;
+}
+
+select{
+  background-color: papayawhip;
+  border-radius: 5px;
+  margin-left: -15px;
+}
+
+.resetSortImg{
+  img{
+    cursor: pointer;
+    margin-left: -70px;
+  }
+}
+
+.selectMultipleBtn{
+  button{
+   margin-left: -45px;
+   border-radius: 5px;
+   width: 100px;
+   height: 25px;
+   background-color: rgba(255,255,255,0.7);
+   color:indianred;
+   border-color: indianred;
+   border-width: 1px;
+   font: 16px;
+   font-weight: bold;
+   cursor: pointer;
+  }
+}
+
+tbody tr td:last-child .deleteImg{
+  width: 20px;
+  height: 20px;
+}
+
+th{
+  /* padding: 10px; */
+  position: relative;
+  /* min-height: max-content; */
+}
+
+.tableContainer thead img{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  top: 6px;
+  cursor: pointer;
+}
+
+tr{
+  height: 42px;
+  overflow: hidden;
+}
+
+table{
+   width: 700px;
+   height: 100%;
+   margin: 10px 2px;
+   table-layout: fixed;
+   /* border-bottom: 1px solid black; */
+   border-collapse: collapse;
+  /* border-top-left-radius: 10px; */
+
+   td{
+    padding: 12px;
+   }
+}
+
+tr{
+  text-align: center;
+  /* border-top: 1px solid black; */
+  /* border-left: 1px solid black; */
+  /* border-right: 1px solid black; */
+  /* border-radius: 50px; */
+  border-collapse: collapse;
+}
+
+tbody{
+  background-color: cornsilk;
+}
+
+thead{
+  background-color: blanchedalmond;
+}
+
+/* table:last-child {
+  border-bottom-right-radius:10px;
+} */
+
+tr+tr{
+  border-top: 1px bisque solid;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius:10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius:10px;
+}
+
+table th:first-child {
+  border-top-left-radius:10px;
+}
+
+table th:last-child {
+  border-top-right-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
