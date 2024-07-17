@@ -13,32 +13,6 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('')
   const [isSortAscending, setIsSortAscending] = useState(true)
   const [sortCallback, setSortCallback] = useState(()=> ()=> {})
-//   let myData = [
-//     {
-//         id: crypto.randomUUID(),
-//         title: 'Milk',
-//         category: 'Grocery',
-//         price: 40,
-//     },
-//     {
-//         id: crypto.randomUUID(),
-//         title: 'Shirt',
-//         category: 'Clothes',
-//         price: 600,
-//     },
-//     {
-//         id: crypto.randomUUID(),
-//         title: 'Vegetables',
-//         category: 'Grocery',
-//         price: 100,
-//     },
-//     {
-//         id: crypto.randomUUID(),
-//         title: 'Electricity Bill',
-//         category: 'Bills',
-//         price: 40,
-//     },
-// ];
 
   useEffect(() => {
     axios.get('https://dummyjson.com/products')
@@ -112,9 +86,7 @@ function App() {
   }
 
   const resetSort = ()=>{
-    // console.log('clicked')
     setIsSortAscending(true);
-    // console.log(filteredData.sort(sortCallback))
     setSortCallback(()=> ()=> {})
     
   }
