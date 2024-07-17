@@ -10,3 +10,7 @@ https://productstoreappp.netlify.app/
 Version2:
 (Title sort added)
 https://productapp-titlesort.netlify.app/
+
+Version2:
+(Delete records added, single record and multiple record delete)
+https://productapp-deleterecords.netlify.app/
