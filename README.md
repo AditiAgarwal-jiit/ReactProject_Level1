@@ -11,6 +11,6 @@ Version2:
 (Title sort added)
 https://productapp-titlesort.netlify.app/
 
-Version2:
+Version3:
 (Delete single record and multiple records)
 https://productapp-deleterecords.netlify.app/
