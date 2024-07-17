@@ -12,5 +12,5 @@ Version2:
 https://productapp-titlesort.netlify.app/
 
 Version2:
-(Delete records added, single record and multiple record delete)
+(Delete single record and multiple records)
 https://productapp-deleterecords.netlify.app/
