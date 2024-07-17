@@ -1,0 +1,4 @@
+This is the second version of the app.
+Title sort is added.
+Table headers are generated dynamically rather than hard coding.
+Table headers converted to camel case while rendering.
